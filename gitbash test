@@ -1,0 +1,49 @@
+DYPe@DESKTOP-NQGJ6HB MINGW64 /
+$ mkdir myfirstrepo
+
+DYPe@DESKTOP-NQGJ6HB MINGW64 /
+$ cd myfirstrepo
+
+DYPe@DESKTOP-NQGJ6HB MINGW64 /myfirstrepo
+$ git init
+Initialized empty Git repository in E:/apl moklet/Git/myfirstrepo/.git/
+
+DYPe@DESKTOP-NQGJ6HB MINGW64 /myfirstrepo (master)
+$
+
+DYPe@DESKTOP-NQGJ6HB MINGW64 /myfirstrepo (master)
+$ git remote add origin https://github.com/dimassypp/myfirstrepo.git
+
+DYPe@DESKTOP-NQGJ6HB MINGW64 /myfirstrepo (master)
+$ touch index.html
+
+DYPe@DESKTOP-NQGJ6HB MINGW64 /myfirstrepo (master)
+$ git add index.html
+
+DYPe@DESKTOP-NQGJ6HB MINGW64 /myfirstrepo (master)
+$ git commit -m "first commit"
+[master (root-commit) dd923e5] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+
+DYPe@DESKTOP-NQGJ6HB MINGW64 /myfirstrepo (master)
+$ git push origin master
+
+                             fatal: helper error (-1): authentication prompt was canceled
+error: unable to read askpass response from 'E:/apl moklet/Git/mingw64/libexec/git-core/git-gui--askpass'
+Username for 'https://github.com': error: unable to read askpass response from 'E:/apl moklet/Git/mingw64/libexec/git-core/git-gui--askpass'
+Password for 'https://github.com':
+remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/dimassypp/myfirstrepo.git/'
+
+DYPe@DESKTOP-NQGJ6HB MINGW64 /myfirstrepo (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 210 bytes | 14.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/dimassypp/myfirstrepo.git
+ * [new branch]      master -> master
+
+DYPe@DESKTOP-NQGJ6HB MINGW64 /myfirstrepo (master)
+$ 
